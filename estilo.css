@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+}
+h1
+{
+
+font-size: 60px;
+font-weight: 500;
+color: black;
+background: whitesmoke;
+}
+#description
+{
+    font-size: 20px;
+    color: #333;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-weight: 800;
+    background: white;
+       
+}
+#survey-form 
+{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: left;
+    flex-direction: column;  
+    background: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.teknofilo.com%2Fwp-content%2Fuploads%2F2017%2F01%2FMinimalist-smartphone-wallpapers_021.jpg&f=1&nofb=1);
+    background-size:cover;
+  }
+.inputbox
+{
+  width: 50%;
+  padding: 5px 0;
+  font-size: 20px;
+  margin: 10px 0;
+  
+}
+#name
+{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+#email
+{
+    width: 100%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+#number
+{
+    width: 25%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+#recomendar
+{
+    font-size: 20px;
+    color: #333;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-weight: 600;
+    
+}
+#dropdown
+{
+    width: 10%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #333;
+    outline: none;
+    resize: none; 
+}
+#frecuencia
+{
+    font-size: 20px;
+    color: #333;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-weight: 600;
+}
+.radio
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+  font-size: 16px;
+  margin: 20px 0;
+}
+#preferidos
+{
+    font-size: 20px;
+    color: #333;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-weight: 600;
+}
+.checkbox
+{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+  font-size: 16px;
+  margin: 20px 0;
+}
+.input-checkbox
+{
+    width: 5%;
+    padding: 5px 0;
+    font-size: 16px;
+    margin: 10px 0;
+    border: none;
+     
+}
+#comentario
+{
+    font-size: 20px;
+    color: #333;
+    justify-content: left;
+    display: flex;
+    position: relative;
+    font-weight: 600;
+}
+#comments
+{
+    width:30%;
+  padding: 5px 0;
+  font-size: 16px;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid #333;
+  outline: none;
+  resize: none;
+}
+.submit-button
+{
+ width: 100px;
+border: 1px solid #333b;
+cursor: pointer;
+padding: 10px 20px;
+font-size: 20px;
+background: whitesmoke;
+margin: 10px;
+}
